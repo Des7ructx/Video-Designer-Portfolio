@@ -562,3 +562,85 @@ width: 20px;
     transition: 0.4s ease-in-out;
   }
 }
+
+@media(max-width:600px){
+ 
+  .navbar{
+    
+  }
+  .navbar a{
+    display: block;
+    font-size: 1.8rem;
+    margin: 1rem 0;
+    color: var(--text-color);
+  }
+
+  .navbar.active{
+    display: block;
+  }
+  .gradient-btn{
+    display: none;
+  }
+  .home{
+    flex-direction: column-reverse;
+    margin: 5rem 0;
+    gap: 5rem;
+  }
+
+  .home-content{ 
+    align-items: center;
+    text-align: center;
+  }
+  .home-img img{
+    width: 56 vw;
+  }
+
+   .about{
+    flex-direction: column-reverse;
+    text-align: center;
+   }
+
+   .about h2{
+    text-align: center;
+    margin: 2rem 0;
+     
+   }
+   .about img{
+    width: 52vw;
+   }
+
+   .contact form{
+    flex-direction: column;
+   }
+
+   .project-card img{
+    max-width: 150px;
+   }
+
+   .services-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    align-items: center;
+    background-color: var(--main-color);
+    height: 400px;
+    border-radius: 3rem;
+    cursor: pointer;
+    border: 5px solid transparent;
+    transition: 0.4s ease-in-out;
+    margin-bottom: 260px;
+  }
+  
+  .service-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--main-color);
+    height: 220px;
+    border-radius: 3rem;
+    cursor: pointer;
+    border: 5px solid transparent;
+    transition: 0.4s ease-in-out;
+  }
+
+
+}
