@@ -651,6 +651,7 @@ width: 20px;
     transition: 0.4s ease-in-out;
     margin-bottom: 50px;
     margin-top:70px;
+    max-width: 320px;
 
     
   }
