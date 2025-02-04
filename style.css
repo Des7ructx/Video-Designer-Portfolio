@@ -537,12 +537,9 @@ width: 20px;
     flex-direction: column;
    }
 .projects-box{
-  max-width: 150px;
+  max-width: 550px;
 }
-   .project-card{
-    max-width: 150px;
-   }
-
+  
    .services-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -603,7 +600,7 @@ width: 20px;
     width: 56 vw;
   }
   .projects-box{
-    max-width: 150px;
+    max-width: 250px;
   }
    .about{
     flex-direction: column-reverse;
