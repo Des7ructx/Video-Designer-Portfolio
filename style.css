@@ -537,7 +537,7 @@ width: 20px;
     flex-direction: column;
    }
 
-   .project-card img{
+   .project-card{
     max-width: 150px;
    }
 
@@ -619,7 +619,7 @@ width: 20px;
     flex-direction: column;
    }
 
-   .project-card img{
+   .project-card{
     max-width: 150px;
    }
 
