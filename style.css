@@ -545,12 +545,12 @@ width: 20px;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     align-items: center;
     background-color: var(--main-color);
-    height: 400px;
+    height: 20px;
     border-radius: 3rem;
     cursor: pointer;
     border: 5px solid transparent;
     transition: 0.4s ease-in-out;
-    margin-bottom: 260px;
+    margin-bottom: 1600px;
   }
   
   .service-box{
@@ -558,12 +558,13 @@ width: 20px;
     justify-content: center;
     align-items: center;
     background-color: var(--main-color);
-    height: 220px;
+    height: 450px;
     border-radius: 3rem;
     cursor: pointer;
     border: 5px solid transparent;
     transition: 0.4s ease-in-out;
-    margin: 400px;
+    margin-bottom: 50px;
+    margin-top:70px;
 
     
   }
@@ -601,7 +602,7 @@ width: 20px;
     width: 56 vw;
   }
   .projects-box{
-    max-width: 450px;
+    max-width: 400px;
   }
    .about{
     flex-direction: column-reverse;
@@ -630,12 +631,12 @@ width: 20px;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     align-items: center;
     background-color: var(--main-color);
-    height: 400px;
+    height: 20px;
     border-radius: 3rem;
     cursor: pointer;
     border: 5px solid transparent;
     transition: 0.4s ease-in-out;
-    margin-bottom: 260px;
+    margin-bottom: 1600px;
   }
   
   .service-box{
@@ -643,12 +644,15 @@ width: 20px;
     justify-content: center;
     align-items: center;
     background-color: var(--main-color);
-    height: 220px;
+    height: 450px;
     border-radius: 3rem;
     cursor: pointer;
     border: 5px solid transparent;
     transition: 0.4s ease-in-out;
-    margin: 400px;
+    margin-bottom: 50px;
+    margin-top:70px;
+
+    
   }
 
 
