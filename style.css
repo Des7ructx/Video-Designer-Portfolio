@@ -536,7 +536,9 @@ width: 20px;
    .contact form{
     flex-direction: column;
    }
-
+.projects-box{
+  max-width: 150px;
+}
    .project-card{
     max-width: 150px;
    }
@@ -600,7 +602,9 @@ width: 20px;
   .home-img img{
     width: 56 vw;
   }
-
+  .projects-box{
+    max-width: 150px;
+  }
    .about{
     flex-direction: column-reverse;
     text-align: center;
